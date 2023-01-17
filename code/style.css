@@ -1,0 +1,228 @@
+html {
+  background: #d9dbe7;
+  color: black;
+  font-family: sans-serif;
+  margin: 50px;
+}
+.body {
+  max-width: 100%;
+  height: auto;
+}
+
+/* navbar logo and page title */ 
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 30px;
+  background-color: white;
+
+}
+
+.title-logo { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.title-logo img {
+  width: 200px;
+  border: black 2px;
+ }
+
+ 
+h1 {
+  font-size: 60px;
+  color: rgb(33, 26, 221);
+  background-color:rgb(245, 252, 28);
+  text-transform: uppercase;
+}
+
+/* big news story */ 
+
+.text {
+  color:black;
+  margin: 0;
+  font-size: 25px;
+}
+.boxed{
+  display:flex;
+}
+  .big-news-container {
+  display:flex;
+  align-items: flex-start;
+  padding: 10px;
+  width:100%;
+  margin: 50 rem auto 0 auto;
+  border: 2px solid black;
+  border-radius: 10px; 
+  background-color: aqua;
+  
+   }
+
+   .text {
+    font-size: 40px; 
+   }
+
+   
+  .big-news-container img {
+    height: 300px;
+    margin-left: 75px;
+
+  }
+
+/* other news */ 
+
+.other-news {
+  display:flex;
+  color: rgb(7, 113, 35);
+  font-size: 25px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-basis: content;
+  max-width: 100%;
+  height: auto;
+  
+}  
+
+.other-news img {
+    width: 200px;
+
+  }
+
+  .norway {
+    background-color: rgb(213, 178, 245);
+    border: 2px solid black;
+    border-radius: 10px; 
+    margin: 5px;
+    padding: 10px;
+
+  }
+
+  .dancing-swedes {
+    background-color: rgb(213, 178, 245);
+    border: 2px solid black;
+    border-radius: 10px; 
+    margin: 5px;
+    padding: 10px;
+
+  }
+
+  .bubble-bursting {
+    background-color: rgb(213, 178, 245);
+    border: 2px solid black;
+    border-radius: 10px; 
+    margin: 5px;
+    padding: 10px;
+
+  }
+  
+  .ai-jokes {
+    background-color: rgb(213, 178, 245);
+    border: 2px solid black;
+    border-radius: 10px; 
+    margin: 5px;
+    padding: 10px;
+
+  }
+
+  .footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(244, 132, 219);
+  color: rgb(9, 7, 7);
+}
+
+/* make it responsive ...........................................*/ 
+
+  /* tablet */
+  @media (max-width: 992px) 
+  {
+    .navbar {
+  display: flex;
+  padding:5px;
+  font-size: 15px;
+  background-color: pink;
+    }
+    .title-logo img {
+      width: 50px;
+     }
+     h1 {
+      font-size: 20px;
+     }
+     .text {
+      font-size: 15px;
+      margin-left: 10px;
+    }
+
+    .big-news-container {
+   margin-right: 15px;
+   display:flex;
+  flex-direction: column;
+  align-content: stretch;
+       }
+    
+    .big-news-container img {
+        height: 100px;
+        margin-left:0;   
+    }
+    
+      .other-news {
+        display:flex;
+        color: rgb(7, 113, 35);
+        font-size: 15px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-basis: content;
+        max-width: 100%;
+        height: auto;  
+      }  
+      
+      .other-news img {
+          width: 100px;
+        }   
+      }
+
+
+
+  /*responsive to mobile */
+
+  @media (max-width: 768px) {
+
+    .title-logo img {
+      width: 100px;
+     }
+     h1 {
+      font-size:50px;
+     }
+     .text {
+      font-size: 15px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .big-news-container {
+   margin-right: 15px;
+   display:flex;
+  flex-direction: column;
+  align-content: stretch;
+       }
+    
+    .big-news-container img {
+        height: 100px;
+        margin-left:0;   
+    }
+    
+      .other-news { 
+       color: rgb(7, 113, 35);
+        font-size: 15px;
+        flex-wrap: wrap;
+        max-width: 100px;
+        justify-content: flex-start;
+       
+      }  
+      
+      .other-news img {
+          width: 100px;
+        }   
+      }
