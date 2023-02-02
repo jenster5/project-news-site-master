@@ -4,7 +4,10 @@ html {
   font-family: sans-serif;
   margin: 50px;
 }
-
+.news {
+  width:100%;
+  height: auto;
+}
 
 /* navbar logo and page title */ 
 .navbar {
@@ -75,7 +78,7 @@ h1 {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   color: rgb(7, 113, 35);
   font-size: 20px;
-  max-width: 75%;
+  max-width: 100%;
   height: auto;
   
 }  
