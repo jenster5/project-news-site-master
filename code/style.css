@@ -4,10 +4,7 @@ html {
   font-family: sans-serif;
   margin: 50px;
 }
-.body {
-  max-width: 100%;
-  height: auto;
-}
+
 
 /* navbar logo and page title */ 
 .navbar {
@@ -74,19 +71,17 @@ h1 {
 /* other news */ 
 
 .other-news {
-  display:flex;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   color: rgb(7, 113, 35);
-  font-size: 25px;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-basis: content;
-  max-width: 100%;
+  font-size: 20px;
+  max-width: 75%;
   height: auto;
   
 }  
 
 .other-news img {
-    width: 200px;
+    width: 150px;
 
   }
 
